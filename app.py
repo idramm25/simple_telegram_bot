@@ -1,7 +1,7 @@
 # req: pip install pytelegrambotapi
 import telebot
 
-bot = telebot.TeleBot('1397555774:AAGTqpQ2aSsgnrMMqZfZH_7jae2CCUs_pDA')
+bot = telebot.TeleBot('Telegram_token')
 
 
 @bot.message_handler(content_types=['text'])
